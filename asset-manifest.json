@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/fb-clone/static/css/main.6233531e.css",
-    "main.js": "/fb-clone/static/js/main.37cd2a05.js",
+    "main.js": "/fb-clone/static/js/main.57ff1b57.js",
     "static/js/27.939f4505.chunk.js": "/fb-clone/static/js/27.939f4505.chunk.js",
+    "static/media/user-1.jpg": "/fb-clone/static/media/user-1.86709e764bce8054abcc.jpg",
     "static/media/angry.gif": "/fb-clone/static/media/angry.832bd9600a43c623001b.gif",
     "static/media/haha.gif": "/fb-clone/static/media/haha.c50a8c509d5894ba05a4.gif",
     "static/media/wow.gif": "/fb-clone/static/media/wow.9f141b49058eb248019c.gif",
     "static/media/primeicons.svg": "/fb-clone/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/sad.gif": "/fb-clone/static/media/sad.795db26378f54a8a8a92.gif",
+    "static/media/user-2.jpg": "/fb-clone/static/media/user-2.790b489c1d622d650a86.jpg",
     "static/media/love.gif": "/fb-clone/static/media/love.8d4cabecfb1841b7310c.gif",
     "static/media/like.gif": "/fb-clone/static/media/like.8da211aeedb0f983acbc.gif",
     "static/media/primeicons.eot": "/fb-clone/static/media/primeicons.d44157bdfa026dc877af.eot",
@@ -15,6 +17,7 @@
     "static/media/primeicons.ttf": "/fb-clone/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
     "static/media/primeicons.woff2": "/fb-clone/static/media/primeicons.78172950b335ccdb94e2.woff2",
     "static/media/color.png": "/fb-clone/static/media/color.6441e63a57ccc5105bad.png",
+    "static/media/logo.webp": "/fb-clone/static/media/logo.1c9501e0e6d60e7fc527.webp",
     "index.html": "/fb-clone/index.html",
     "static/media/market.svg": "/fb-clone/static/media/market.33c339f0d70f3b9363104c85597ff39d.svg",
     "static/media/watch.svg": "/fb-clone/static/media/watch.a7897d521cb2f2cf5e713e5f6a720316.svg",
@@ -39,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.6233531e.css",
-    "static/js/main.37cd2a05.js"
+    "static/js/main.57ff1b57.js"
   ]
 }
