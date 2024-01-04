@@ -1,0 +1,236 @@
+.container-center {
+  background-color: rgb(240, 242, 245);
+  min-height: calc(100vh - 56px);
+  display: flex;
+  padding-top: 56px;
+}
+.container-center-content {
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(240, 242, 245);
+}
+.container-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+.create-post-button {
+  width: 100%;
+  gap: 0;
+  padding: 0.75rem 1rem 0.5rem;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: max(0px, min(8px, (100vw - 4px - 100%) * 9999)) / 8px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+.first-row-create-post {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 0.5rem;
+}
+.input-create-post {
+  width: 100%;
+  min-height: 42px;
+  border-radius: 1.5rem;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+
+  > span {
+    font-size: 1rem;
+    color: rgb(101, 103, 107);
+    padding-left: 1rem;
+    z-index: 2;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+  }
+
+  &:hover::before {
+    background: #e4e6eb;
+  }
+}
+
+.last-row-create-post {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.create-type-button {
+  flex-grow: 1;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+
+  span {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: rgb(101, 103, 107);
+  }
+}
+.standard-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 2.25rem;
+  padding: 0 0.75rem;
+  gap: 0.5rem;
+  line-height: 0;
+  border-radius: 0.375rem;
+
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: normal;
+
+  transition: all 0.2s ease-in-out;
+  /* background-color: rgb(228, 230, 235); */
+
+  &:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: inherit;
+  }
+
+  &.underline-hover {
+    &:hover {
+      text-decoration: underline;
+    }
+    &::before {
+      content: none;
+    }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    color: #bcc0c4;
+    background-color: #e4e6eb;
+  }
+
+  &.blue {
+    color: white;
+    background-color: #1b74e4;
+  }
+
+  &.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+  }
+
+  &.light-blue {
+    color: #1b74e4;
+    background: #e7f3ff;
+  }
+
+  &.white {
+    background-color: rgb(255, 255, 255);
+  }
+
+  &.transparent {
+    background-color: transparent;
+  }
+
+  &.transparent-blue {
+    background-color: transparent;
+    color: #1b74e4;
+  }
+}
+
+.dialog {
+  background: white;
+  color: black;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  border: none;
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  max-width: 95vw;
+  width: 700px;
+  max-height: 90vh;
+
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+}
+.dialog-post-form {
+  width: 500px;
+  z-index: 1005;
+  min-height: 333px;
+  overflow-x: hidden;
+}
+.dialog::backdrop {
+  background-color: rgba(244, 244, 244, 0.8);
+}
+.p-dialog .p-dialog-header .p-dialog-title {
+  text-align: center;
+}
+.p-dialog .p-dialog-header-icons {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  /* padding: 0.5rem; */
+}
+.p-dialog .p-dialog-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.p-dialog .p-dialog-header {
+  padding: 1rem;
+}
+@keyframes p-component-overlay-enter-animation {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: rgb(244 244 244 / 80%);
+  }
+}
+@keyframes p-component-overlay-leave-animation {
+  from {
+    background-color: rgb(244 244 244 / 80%);
+  }
+  to {
+    background-color: transparent;
+  }
+}
+.p-dialog .p-dialog-content {
+  padding: 0;
+}
