@@ -4,6 +4,8 @@ import { NavLink } from "react-router-dom"
 import { ReactComponent as PublicIcon } from "../../../assets/images/icons/public.svg"
 import { ReactComponent as LikeIcon } from "../../../assets/images/icons/like.svg"
 import { ReactComponent as LoveIcon } from "../../../assets/images/icons/love.svg"
+import User1 from "../../../assets/images/users/user-1.jpg";
+import User2 from "../../../assets/images/users/user-2.jpg";
 import likeImage from "../../../assets/images/icons/like.gif";
 import loveImage from "../../../assets/images/icons/love.gif";
 import hahaImage from "../../../assets/images/icons/haha.gif";
@@ -31,7 +33,7 @@ export default function PostDetail() {
                         <span>
                             <NavLink
                                 to="/"><img className="image-circle"
-                                    src="https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/404822845_1287569742643909_2748016673575366657_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=3naMeQfdV-oAX8Cqi02&_nc_ht=scontent.fhan5-10.fna&oh=00_AfDkPTj0aIPvIhiGLVEsN1bOQhVSahUX-JAoKxohAV1exQ&oe=659A0857"
+                                    src={User1}
                                     alt="Odinbook"
                                 /></NavLink>
                         </span>
@@ -111,7 +113,7 @@ export default function PostDetail() {
                         <span>
                             <NavLink
                                 to="/"><img className="image-circle-32"
-                                    src="https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/404692249_1772094026567926_3059343560678453621_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=r2ua7iPcyrQAX_shWUm&_nc_ht=scontent.fhan5-9.fna&oh=00_AfAr8gYaYdMA3tSUocRFx1lK_QRqFOG694MqHOqmp8IQvg&oe=6597BE7A"
+                                    src={User2}
                                     alt="Odinbook"
                                 /></NavLink>
                         </span>

@@ -5,6 +5,8 @@ import { ReactComponent as PublicIcon } from "../../../assets/images/icons/publi
 import { ReactComponent as CloseIcon } from "../../../assets/images/icons/close.svg"
 import { ReactComponent as AddPhotoIcon } from "../../../assets/images/icons/add-photo.svg"
 import { ReactComponent as CheckinIcon } from "../../../assets/images/icons/checkin.svg"
+import User1 from "../../../assets/images/users/user-1.jpg";
+import User2 from "../../../assets/images/users/user-2.jpg";
 import ImageIcon from "../../../assets/images/icons/image.png";
 import TagIcon from "../../../assets/images/icons/tag.png";
 import EmojiIcon from "../../../assets/images/icons/emoji.png";
@@ -33,7 +35,7 @@ export default function PostForm() {
                 <div className="user-info">
                     <NavLink
                         to="/"><img className="image-circle"
-                            src="https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/404692249_1772094026567926_3059343560678453621_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=r2ua7iPcyrQAX_shWUm&_nc_ht=scontent.fhan5-9.fna&oh=00_AfAr8gYaYdMA3tSUocRFx1lK_QRqFOG694MqHOqmp8IQvg&oe=6597BE7A"
+                            src={User2}
                             alt="Odinbook"
                         /></NavLink>
                     <div>

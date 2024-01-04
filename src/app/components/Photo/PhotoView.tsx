@@ -7,6 +7,8 @@ import { ReactComponent as PublicIcon } from "../../../assets/images/icons/publi
 import { ReactComponent as LikeIcon } from "../../../assets/images/icons/like.svg"
 import { ReactComponent as LoveIcon } from "../../../assets/images/icons/love.svg"
 import likeImage from "../../../assets/images/icons/like.gif";
+import User1 from "../../../assets/images/users/user-1.jpg";
+import logo from "../../../assets/images/logo.webp";
 import loveImage from "../../../assets/images/icons/love.gif";
 import hahaImage from "../../../assets/images/icons/haha.gif";
 import wowImage from "../../../assets/images/icons/wow.gif";
@@ -28,7 +30,7 @@ export default function PhotoView() {
                     </button>
                     <NavLink
                         to="/"><img className="image-circle"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png"
+                            src={logo}
                             alt="Odinbook"
                         /></NavLink>
                 </div>
@@ -49,7 +51,7 @@ export default function PhotoView() {
                             <span>
                                 <NavLink
                                     to="/"><img className="image-circle"
-                                        src="https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/404822845_1287569742643909_2748016673575366657_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=3naMeQfdV-oAX8Cqi02&_nc_ht=scontent.fhan5-10.fna&oh=00_AfDkPTj0aIPvIhiGLVEsN1bOQhVSahUX-JAoKxohAV1exQ&oe=659A0857"
+                                        src={User1}
                                         alt="Odinbook"
                                     /></NavLink>
                             </span>

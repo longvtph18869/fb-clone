@@ -10,6 +10,9 @@ import { ReactComponent as MenuIcon } from "../../../../assets/images/icons/menu
 import { ReactComponent as MessengerIcon } from "../../../../assets/images/icons/messenger.svg"
 import { ReactComponent as NotiIcon } from "../../../../assets/images/icons/noti.svg"
 import { ReactComponent as LogoutIcon } from "../../../../assets/images/icons/logout.svg"
+import User1 from "../../../../assets/images/users/user-1.jpg";
+import User2 from "../../../../assets/images/users/user-2.jpg";
+import logo from "../../../../assets/images/logo.webp";
 import Cookies from "universal-cookie";
 import { AuthConstant } from "../../../constants/authConstant";
 export default function Nav() {
@@ -32,7 +35,7 @@ export default function Nav() {
                     <div className="slide-nav">
                         <NavLink
                             to="/"><img className="image-circle"
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png"
+                                src={logo}
                                 alt="Odinbook"
                             /></NavLink>
                     </div>
@@ -76,7 +79,7 @@ export default function Nav() {
                         </div>
                         <div className="nav-dropdown">
                             <img onClick={() => setIsOpen(!isOpen)} className="image-circle"
-                                src="https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/404692249_1772094026567926_3059343560678453621_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=r2ua7iPcyrQAX_shWUm&_nc_ht=scontent.fhan5-9.fna&oh=00_AfAr8gYaYdMA3tSUocRFx1lK_QRqFOG694MqHOqmp8IQvg&oe=6597BE7A"
+                                src={User2}
                                 alt="Odinbook"
                             />
                             {isOpen && (
