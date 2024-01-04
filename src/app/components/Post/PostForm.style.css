@@ -225,13 +225,13 @@
 	  }
 	}
   
-	& > div:nth-child(1) {
+	& > a:nth-child(1) {
 	  border-radius: 0.375rem 0 0 0;
 	  width: 66.666%;
 	}
   
-	& > div:nth-child(2),
-	& > div:nth-child(3) {
+	& > a:nth-child(2),
+	& > a:nth-child(3) {
 	  border-radius: 0 0.375rem 0.375rem 0;
 	  width: 33.333%;
     aspect-ratio: 1 / 1;

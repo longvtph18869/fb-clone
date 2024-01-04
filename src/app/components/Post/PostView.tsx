@@ -19,9 +19,9 @@ export default function PostView() {
         "https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "https://images.pexels.com/photos/2453551/pexels-photo-2453551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "https://images.pexels.com/photos/1626334/pexels-photo-1626334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/1653631/pexels-photo-1653631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/1033922/pexels-photo-1033922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/216662/pexels-photo-216662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        // "https://images.pexels.com/photos/1653631/pexels-photo-1653631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        // "https://images.pexels.com/photos/1033922/pexels-photo-1033922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        // "https://images.pexels.com/photos/216662/pexels-photo-216662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     ]);
     const [openDialog, setOpen] = useState(false);
     useEffect(() => {
